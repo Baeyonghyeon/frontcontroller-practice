@@ -8,5 +8,6 @@ public class HomeController implements Controller{
     @Override
     public String handelRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         return "home.jsp";
+
     }
 }
